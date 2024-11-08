@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: Libre Baskerville,sans-serif,serif,cursive;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background:linear-gradient(rgba(255, 176, 176, 0.5),rgba(0, 12, 143, 0.385));
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header{
+    position: fixed;
+    left:0px;
+    top: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(0, 0, 0, 0.318);
+    box-shadow: #0000007f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    z-index: 100;
+}
+
+.icon{
+   
+    font-size: 32px;
+    text-decoration: none;
+    color: beige;
+    font-family: Cinzel,sans-serif,cursive    ;
+
+}
+.navbar>a{
+    position: relative;
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: Libre Baskerville,sans-serif,serif,cursive;
+
+}
+.navbar>a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+.imager>img{
+    height: 100vh;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.box1{
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(rgba(15, 51, 255, 0.159),rgba(205, 89, 89, 0.411));
+    margin-top: 120px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-top:20px;
+    border-radius: 50px;
+
+}
+.object{
+z-index: 100;
+padding: 5px;
+}
+.object>img{
+ width: 60px;
+ padding:10px;
+}
+.object>span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight:  500px; ;
+
+}
+.box2{
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(rgba(15, 51, 255, 0.159),rgba(205, 89, 89, 0.411));
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-top:15px;
+    border-radius: 50px;
+
+}
+.object1{
+z-index: 100;
+padding: 5px;
+}
+.object1>img{
+ width: 60px;
+ padding-bottom:2px;
+ margin-left: 5px;
+}
+.object1>span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight:  500px; ;
+
+}
+.adjust{
+    padding-left: 13px;
+}
