@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: Libre Baskerville,sans-serif,serif,cursive;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background:linear-gradient(rgba(39, 0, 0, 0.516),rgba(247, 255, 94, 0.462));
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header{
+    position: fixed;
+    left:0px;
+    top: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: #0000007f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    z-index: 100;
+}
+
+.icon{
+   
+    font-size: 32px;
+    text-decoration: none;
+    color: beige;
+    font-family: Cinzel,sans-serif,cursive    ;
+
+}
+.navbar>a{
+    position: relative;
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: Libre Baskerville,sans-serif,serif,cursive;
+
+}
+.navbar>a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+.carasoule{
+    padding-left:30px;
+    border-radius: 50px;
+    width: 400px;
+    margin-top: 100px;
+    display: flex;
+    
+    
+    
+}
+.carasoule>img{
+    width: 490px;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+.room{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.room>h1{
+    font-family:playfair display ;
+}
+.room>p{
+    font-family:Cormorant Garamond,sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.book-now-button {
+    background:linear-gradient(rgba(69, 72, 0, 0.544),rgba(230, 255, 230, 0.347)) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 45%;
+    margin-bottom: 100px;
+  }
