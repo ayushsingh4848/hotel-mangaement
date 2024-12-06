@@ -83,13 +83,17 @@ body{
     font-size: larger;
     font-weight: 500;
 }
-.para{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.para>p{
-    font-family:Cormorant Garamond,sans-serif;
-    font-size: larger;
-    font-weight: 500;
-
-}
+.book-now-button {
+    background:linear-gradient(rgba(69, 72, 0, 0.544),rgba(230, 255, 230, 0.347)) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 45%;
+    margin-bottom: 100px;
+  }

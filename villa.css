@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: Libre Baskerville,sans-serif,serif,cursive;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background:linear-gradient(rgba(46, 0, 88, 0.505),white) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header{
+    position: fixed;
+    left:0px;
+    top: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(0, 0, 0, 0.318);
+    box-shadow: #0000007f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    z-index: 100;
+}
+
+.icon{
+   
+    font-size: 32px;
+    text-decoration: none;
+    color: beige;
+    font-family: Cinzel,sans-serif,cursive    ;
+
+}
+.navbar>a{
+    position: relative;
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: Libre Baskerville,sans-serif,serif,cursive;
+
+}
+.navbar>a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    
+    padding: 0%;
+    margin-top: 105px;
+    
+    
+}
+#top>h1{
+    font-size: 5rem;
+    font-family: cinzel,sans-serif,cursive;
+    color: #ffffff;
+   
+
+}
+.listofitems{
+    margin-top: 0px;
+    height: 100vh;
+}
+.list-room{
+    display: flex;
+    width: 90vw;
+    margin-right: 100px;
+    margin-left: 60px;   
+}
+
+.items{
+    background-color: rgba(0, 0, 0, 0.318);
+    width: 100vw;
+    height: 400px;
+    margin:50px 0px 0px 0px ;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 3fr 1fr;
+    gap: 0px;
+    border-radius: 50px;
+    
+}
+.items>img{
+    height: 350px;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    
+    
+}
+.items>img:hover{
+    scale: 1.1;
+    transition: all ease-in 0.5s;
+    transition: all ease-out 0.5s;
+}
+.items>ul{
+    list-style-type: none;
+    color: aliceblue;
+   
+    text-align: left;
+    padding: 40px 0px 20px  0px;
+}
+.items>ul>li{
+    text-align: left;
+    padding-top: 15px;
+    font-family: Cinzel,sans-serif,serif,cursive;
+    font-size: larger;
+}
+.items>.price>h2{
+    color: #fff;
+    display: flex;
+    padding-top: 105px;
+}
+.items>.price>h3{
+    font-size: xx-small;
+    text-align: center;
+    color: aliceblue;
+}
+.listofitems>a{
+    text-decoration: none;
+}
