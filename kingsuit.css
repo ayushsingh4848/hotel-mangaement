@@ -6,7 +6,7 @@
 }
 body{
     min-height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/king\ suit.jpg) no-repeat;
+    background:linear-gradient(rgba(39, 0, 0, 0.516),rgba(247, 255, 94, 0.462));
     background-size: cover;
     background-position: center;
 
@@ -54,4 +54,32 @@ body{
     height: 2px;
     width: 100%;
     background: #fff;
+}
+.carasoule{
+    padding-left:30px;
+    border-radius: 50px;
+    width: 400px;
+    margin-top: 100px;
+    display: flex;
+    
+    
+    
+}
+.carasoule>img{
+    width: 490px;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+.room{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.room>h1{
+    font-family:playfair display ;
+}
+.room>p{
+    font-family:Cormorant Garamond,sans-serif;
+    font-size: larger;
+    font-weight: 500;
 }
